@@ -1,0 +1,50 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ddd;
+    line-height: 1.65;
+    padding-bottom: 1000px;
+}
+
+.container-satu {
+    display: flex;
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar-satu {
+    border-radius: 5px;
+    order: 1;
+    padding: 0 0 0 20px ;
+    width: 800px;
+    margin-right: 20px;
+    color: #fe7f2d;
+    background-color: #233d4d;
+}
+
+.sidebar-satu a {
+    color: #fe7f2d;
+    text-decoration: none;
+}
+
+.sidebar-dua {
+    color: #fe7f2d;
+    background-color: #233d4d;
+    order: 3;
+    width: 1000px;
+    padding: 0 20px 0 20px;
+}
+
+.kolom-utama {
+    color: #233d4d;
+    padding: 0 20px 0 20px;
+    background-color: #fe7f2d;
+    order: 2;
+}
