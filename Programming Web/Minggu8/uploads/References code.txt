@@ -1,0 +1,50 @@
+      <!-- <section>
+        <h2 class="mb-20 text-5xl flex justify-center font-bold">
+          Dive into the Process
+        </h2>
+      </section>
+      <section>
+        <figure class="flex justify-between mb-5">
+          <div class="mb-5 bg-red-900 rounded-xl p-5 pb-10 mr-5">
+            <h3 class="text-3xl mb-1 font-bold">
+              Create an Account
+            </h3>
+            <p class="w-80">Sign up by providing your basic information or connect via social media. This will give you access to the platform’s features.</p>
+          </div>
+          
+          <div class="mb-5 rounded-xl p-5 pb-10 mr-5">
+            <h3 class="text-3xl mb-1 font-bold">
+              Choose a Template
+            </h3>
+            <p class="w-80">Browse through various customizable templates for different types of content, such as blogs, videos, or social media posts.</p>
+          </div>
+          <div class="mb-5 bg-red-900 rounded-xl p-5 pb-10 mr-5">
+            <h3 class="text-3xl mb-1 font-bold">
+              Add Your Content
+            </h3>
+            <p class="w-80">Upload text, images, or videos directly to the template, and make edits using an easy-to-use editor to fit your style.</p>
+          </div>
+        </figure>
+        <figure class="flex justify-between">
+          <div class="mb-5 rounded-xl p-5 pb-10 mr-5">
+            <h3 class="text-3xl mb-1 font-bold">
+              Costumize Design
+            </h3>
+            <p class="w-80">Personalize your content’s appearance by adjusting fonts, colors, and layouts to match your brand or theme.</p>
+          </div>
+  
+          <div class="mb-5 bg-red-900 rounded-xl p-5 pb-10 mr-5">
+            <h3 class="text-3xl mb-1 font-bold">
+              Preview and Optimize
+            </h3>
+            <p class="w-80">Review your content using the preview mode and optimize it for different platforms (web, mobile, etc.) to ensure it looks perfect everywhere.</p>
+          </div>
+  
+          <div class="mb-5 rounded-xl p-5 pb-10 mr-5">
+            <h3 class="text-3xl mb-1 font-bold">
+              Publish and Share
+            </h3>
+            <p class="w-80">Once you're satisfied, hit publish! Share your content directly on social media or other platforms with integrated sharing options.</p>
+          </div>
+        </figure>
+            </section> -->
