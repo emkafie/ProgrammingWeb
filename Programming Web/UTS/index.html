@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - ABC Hotel</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        .login-container {
+            max-width: 400px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            background-color: #FF8C00;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="py-3 mb-4" style="background-color: #2a2a2a;">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h2 class="text-white fw-bold fs-3">ABC Hotel</h2>
+        </div>
+    </header>
+
+<div class="container m-auto">
+    <div class="login-container">
+        <h2 class="text-center fw-bold p-3 align-items-center fs-5 text-black">Mohon Login Terlebih Dahulu</h2>
+        <form id="loginForm" method="POST" action="login.php">
+            <div class="mb-3">
+                <label for="username" class="form-label">Username</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Enter username">
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Enter password">
+            </div>
+            <div class="error" id="error-message"></div>
+            <button type="submit" class="btn w-100 mt-3 fw-bold text-white" style="background-color: #FF8C00;">LOGIN</button>
+        </form>
+
+        <div id="hasil" class="p-1 text-center" style="color: red; font-size: medium">
+
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#loginForm").submit(function (e) {
+            e.preventDefault();
+
+            var formData = $("#loginForm").serialize();
+
+            $.ajax({
+                url: "login.php",
+                type: "POST",
+                data: formData,
+                success: function (response) {
+                    if (response == 'success') {
+                        $("#hasil").html("Login Berhasil");
+                        window.location.href = 'home.php';
+                    } else {
+                        $("#hasil").html(response);
+                    }
+                }
+            });
+        });
+    });
+</script>
+</body>
+</html>
